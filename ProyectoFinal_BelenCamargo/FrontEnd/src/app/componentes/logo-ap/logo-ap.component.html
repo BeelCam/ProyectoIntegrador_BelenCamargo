@@ -1,0 +1,19 @@
+<div class="row">
+    <div class="container">
+        <div class="logo">
+            <img src="../../../assets/APLogo.png" id="logoAP">
+        </div>
+        <div class="redes">
+            <div>
+                <a href ="/login"></a>
+                <a href="https://www.linkedin.com/in/thalia-maria-belen-camargo-ab30a9209/"><img src="../../../assets/linkedin.png" id="linkedin"></a>
+                <a href="https://www.instagram.com/beellcamargo/"><img src="../../../assets/instagram.png" id="instagram"></a>
+                <a href="https://www.facebook.com/BellCamargoo"><img src="../../../assets/facebook.png" id="facebook"></a>
+                <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf= "!isLogged" >Ingreso</button>      <a href="https://github.com/BeelCam"><img src="../../../assets/github.png" id="github"></a>
+                <button type="button" class="btn btn-outline-light" (click)="onLogOutlogin()" *ngIf= "isLogged" >Cerrar Sesion</button>
+     
+            </div>
+        </div>
+    </div>
+</div>
+
